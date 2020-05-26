@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<csp_whitelist  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="google-tag-manager-http" type="host">http://www.googletagmanager.com</value>
+                <value id="google-tag-manager-https" type="host">https://www.googletagmanager.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="google-apis-styles-https" type="host">https://fonts.googleapis.com</value>
+                <value id="google-apis-styles-http" type="host">http://fonts.googleapis.com</value>
+                <value id="gstatic-fonts-http" type="host">http://fonts.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <value id="gstatic-fonts-https" type="host">https://fonts.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="gstatic-fonts-https" type="host">https://fonts.gstatic.com</value>
+                <value id="data" type="host">data:</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

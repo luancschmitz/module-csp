@@ -1,0 +1,17 @@
+{
+    "name": "luancs/mgt-module-csp-whitelist",
+    "description": "Add styles,js,images in csp magento",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LuanCS\\CSPWhitelist\\": ""
+        }
+    }
+}
